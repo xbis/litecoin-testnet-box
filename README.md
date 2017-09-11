@@ -12,11 +12,8 @@ Two nodes are provided, as one is used to generate blocks and it's balance
 will be increased as this occurs (imitating a miner). You may want a second node
 where this behavior is not observed.
 
-Node `1` will listen on port `19000`, allowing node `2` to connect to it.
-
-Node `1` will listen on port `19001` and node `2` will listen on port `19344`
+Node `1` will listen on port `19333` and node `2` will listen on port `19344`
 for the JSON-RPC server.
-
 
 ```
 $ make start
