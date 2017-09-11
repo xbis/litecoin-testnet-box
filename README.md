@@ -2,9 +2,7 @@
 
 Create your own private litecoin testnet
 
-You must have `litecoind` and `litecoin-cli` installed on your system and in the
-path unless running this within a [Docker](https://www.docker.com) container
-(see [below](#using-with-docker)).
+You must have `litecoind` and `litecoin-cli` installed on your system.
 
 ## Starting the testnet-box
 
