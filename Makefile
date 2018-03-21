@@ -1,6 +1,6 @@
-litecoind=litecoind
-LITECOINGUI=litecoin-qt
-LITECOINCLI=litecoin-cli
+LITECOIND=/opt/bin/litecoind
+LITECOINGUI=/opt/bin/litecoin-qt
+LITECOINCLI=/opt/bin/litecoin-cli
 B1_FLAGS=
 B2_FLAGS=
 B1=-datadir=1 $(B1_FLAGS)
@@ -11,8 +11,8 @@ AMOUNT=
 ACCOUNT=
 
 start:
-	$(litecoind) $(B1) -daemon
-	$(litecoind) $(B2) -daemon
+	$(LITECOIND) $(B1) -daemon
+	$(LITECOIND) $(B2) -daemon
 
 start-gui:
 	$(LITECOINGUI) $(B1) &
